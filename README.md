@@ -1,13 +1,13 @@
 # Central R9
+#### Management desktop app built to control R9 PC.
+<a href="https://www.youtube.com/watch?v=WB6QjWXHYdA&ab_channel=Labz">
+<img src="https://github.com/pipoblak/central-r9/assets/18637121/4cf387ef-48e3-4cee-8ebd-2f5e261bc8bc" height="250px"/>
+</a>
+<a href="https://www.youtube.com/watch?v=WB6QjWXHYdA&ab_channel=Labz">
+  <img src="https://github.com/pipoblak/central-r9/blob/main/video.jpeg" height="250px"/>
+</a>
 
-![example](https://github.com/pipoblak/central-r9/assets/18637121/4cf387ef-48e3-4cee-8ebd-2f5e261bc8bc)
-
-Management desktop app built to control R9 PC.
-
-![](https://github.com/pipoblak/central-r9/blob/main/video.jpeg)
-!([Video](https://www.youtube.com/watch?v=WB6QjWXHYdA&t=808s&ab_channel=Labz))
-
-### Tech Stack
+### Stack
 
 - Javascript/Typescript
 - Electron
