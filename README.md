@@ -1,6 +1,7 @@
 # Central R9
 
-![](https://github.com/pipoblak/central-r9/blob/main/example.gif)
+![](example.gif)
+
 Management desktop app built to control R9 PC.
 
 ![](https://github.com/pipoblak/central-r9/blob/main/video.jpeg)
