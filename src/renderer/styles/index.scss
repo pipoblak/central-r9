@@ -1,0 +1,95 @@
+html,
+body {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@import './background.scss';
+@import './ui.scss';
+
+@keyframes full-rotate {
+  0% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(361deg);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+}
+
+@keyframes flip-fade {
+  0% {
+    transform: translateX(-50%) rotateY(0);
+    opacity: 1;
+  }
+  25% {
+    transform: translateX(-50%) rotateY(180deg);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateX(-50%) rotateY(360deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) rotateY(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes full-rotate-grow {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(90deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    transform: rotate(90deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
