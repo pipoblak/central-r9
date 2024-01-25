@@ -13,11 +13,10 @@
 - Electron
 
 ### Requirements
-
 - OpenRGB Server running at port 6742 in the target Hosts(r9-gaming.local, r9-stream.local) (only required to control LEDS)
 - Open Hardware Monitor running at port 8085 in the target Hosts(r9-gaming.local, r9-stream.local) (only required to show hardware stats in gaming mode)
-- Electron
-
+- NodeJS
+  
 ## Run Development Version
 
 - Install Modules
@@ -32,7 +31,7 @@
   yarn start
 ```
 
-## Build Executable
+## Build Executables
 
 ```bash
   yarn package
